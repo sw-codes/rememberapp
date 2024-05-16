@@ -88,6 +88,7 @@ fun RememberListScreen(
                     Spacer(modifier = Modifier.width(8.dp))
                     Button(onClick = {
                         viewModel.addThingToRemember(title = inputText, category = "$screenTitle")
+                        inputText = ""
                     }) {
                         Text(text = "Save")
                     }

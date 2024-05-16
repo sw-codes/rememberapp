@@ -74,13 +74,15 @@ dependencies {
     // ViewModel utilities for Compose
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:$lifecycle_version")
 
-
     //compose livedata
     implementation("androidx.compose.runtime:runtime-livedata:1.6.7")
 
     //compose navigation
     val nav_version = "2.7.7"
     implementation("androidx.navigation:navigation-compose:$nav_version")
+
+    //compose material3
+    implementation("androidx.compose.material3:material3:1.2.1")
 
     //room db
     val roomVersion = "2.6.1"
