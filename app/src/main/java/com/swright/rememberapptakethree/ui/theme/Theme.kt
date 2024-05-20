@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
-import com.swright.rememberapptakethree.ui.theme.AppTypography
+import com.swright.rememberapptakethree.ui.theme.typography
 
 private val lightScheme = lightColorScheme(
     primary = primaryLight,
@@ -284,7 +284,7 @@ fun RememberAppTheme(
 
   MaterialTheme(
     colorScheme = colorScheme,
-    typography = AppTypography,
+    typography = typography,
     content = content
   )
 }
